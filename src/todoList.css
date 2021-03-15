@@ -1,0 +1,61 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.todoMain .hh1 h1{
+    font-size: 36px;
+    color: rgb(168, 8, 8);
+    background-color: #0a0a0a;
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.205);
+    padding: 10px;
+}
+.todoMain .titl{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.todoMain .header{
+    padding-bottom: 30px;
+}
+.todoMain .header input{
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 7px 0 0 7px;
+    background-color: #161616;
+    color: white;
+    border:1px #2b2b2b;
+}
+.todoMain .header button{
+    padding: 4px 25px 11px 25px;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: #8B0000;
+    border-radius: 0 7px 7px 0;
+    border: 1px #8B0000;
+    color: rgb(15, 11, 11);
+}
+.todoMain .header button:hover{
+    background-color: #720000;
+    color: #000000;
+    cursor: pointer;
+}
+.todoMain .theList li{
+    text-align: center;
+    background-color: #0F0F0F;
+    padding: 20px;
+    margin-bottom: 15px;
+    color: white;
+    border-radius: 5px;
+    list-style: none;
+    transition: background-color .2s ease-out;
+}
+.todoMain .theList li:hover{
+    background-color: #004e00;
+    cursor: pointer;
+}
+ul.theList{
+    padding: 0px;
+}
